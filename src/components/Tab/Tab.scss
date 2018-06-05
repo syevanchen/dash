@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  display: block;
+  height: $height;
+  line-height: $height;
+  text-align: center;
+  color: $txt-content;
+  font-size: 1.25em;
+  text-decoration: none;
+  background-color: $cotent;
+  @mixin unselectable;
+}
+
+.active {
+  cursor: default;
+  color: $txt-title;
+  background-color: $white-base;
+}

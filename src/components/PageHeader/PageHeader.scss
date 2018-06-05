@@ -1,0 +1,96 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: $info;
+}
+
+.logo {
+	margin-left: 30px;
+	height: 50px;
+}
+
+.control {
+	float: right;
+}
+
+.username {
+	color: $txt-reverse;
+	font-size: 1.25em;
+}
+
+.button {
+  display: inline-block;
+  height: $button-height;
+  padding: 0 $gap;
+  line-height: $button-height;
+  color: $info;
+  text-decoration: none;
+  background-color: $txt-reverse;
+  cursor: pointer;
+  border: 1px solid $txt-reverse;
+  text-align: center;
+  white-space: nowrap;
+  margin: $gap;
+  font-weight: bold;
+}
+
+.hide {
+	display: none;
+}
+
+@-webkit-keyframes hover {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+@keyframes hover {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+.hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+.hover:before {
+  content: '';
+  position: absolute;
+  border: $txt-reverse solid 1px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.hover:hover:before, .hover:focus:before, .hover:active:before {
+  -webkit-animation-name: hover;
+  animation-name: hover;
+}

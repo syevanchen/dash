@@ -1,0 +1,65 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+
+.item {
+  border-left: 1px solid $border;
+  padding-left: 14px;
+  position: relative;
+  margin-left: 3px;
+}
+
+.item > i {
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  left: -3px;
+  background: $border;
+  border-radius: 6px;
+}
+
+.item > span {
+  margin-right: 12px;
+  font-weight: bold;
+  color: $txt-content;
+}
+
+.item > a {
+  text-decoration: none;
+  color: $txt-content;
+}
+
+.item > a:hover {
+  color: $info;
+}
+
+.first {
+  min-height: 24px;
+}
+
+.first > i {
+  top: 0;
+}
+
+.first > span, .first > a {
+  position: relative;
+  top: -6px;
+}
+
+.detail {
+  x-outline: 1px solid red;
+  margin-left: 30px;
+  x-padding-left: 10px;
+  padding-bottom: 10px;
+  word-break: break-all;
+  word-wap: break-word;
+  x-border-left: 1px solid $border;
+}
+
+.hide {
+  display: none;
+}
+
+.strong {
+  font-weight: bold;
+}

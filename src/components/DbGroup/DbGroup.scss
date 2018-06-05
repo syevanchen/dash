@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+	margin: $gap;
+}
+
+.title {
+	font-size: 14px;
+	font-weight: 500;
+	color: $info;
+	margin-bottom: 5px;
+}
+
+.panel {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.hide {
+	display: none
+}

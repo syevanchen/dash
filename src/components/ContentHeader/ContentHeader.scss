@@ -1,0 +1,65 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  height: $height;
+  padding: 0 10px;
+  line-height: $height;
+  color: $txt-title;
+  background-color: $cotent-title;
+  border-bottom: 1px solid $border;
+}
+
+.left {
+  position: relative;
+  float: left;
+}
+
+.title {
+  padding: 0 10px;
+  font-size: 1.25em;
+  font-weight: bold;
+  border-right: 1px solid $border;
+}
+
+.status {
+  padding: 0 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.up {
+  color: $success;
+}
+
+.down {
+  color: $error;
+}
+
+.pause {
+  color: $alert;
+}
+
+.offline {
+  color: $disable;
+}
+
+.right {
+  position: relative;
+  float: right;
+}
+
+.button {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  color: $txt-content;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}

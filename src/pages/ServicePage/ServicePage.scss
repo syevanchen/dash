@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  @mixin flex-box;
+}
+
+.content {
+  background-color: $white-base;
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.sidebar {
+  color: $txt-content;
+  background-color: $cotent;
+  flex: none;
+}

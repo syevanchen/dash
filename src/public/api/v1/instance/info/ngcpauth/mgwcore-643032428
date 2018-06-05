@@ -1,0 +1,13 @@
+{
+  "host": "192.168.112.41:8800",
+  "version":"1.0.1-RELEASE",
+  "infos": {
+    "git": {
+      "branch": "master",
+      "commit": {
+        "id": "1bbe370",
+        "time": "2016-04-03T10:00:48+0800"
+      }
+    }
+  }
+}

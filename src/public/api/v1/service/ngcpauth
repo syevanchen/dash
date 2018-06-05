@@ -1,0 +1,33 @@
+{
+    "serviceName": "mgwcore",
+    "displayName": "医保网关核心服务",
+    "serviceType": "springboot",
+    "apiDocURI": "/api-docs",
+    "entryURL": null,
+    "icon": "medkit",
+    "enabled": true,
+    "adminContextPath": "/admin",
+    "adminUsername": "admin",
+    "adminPassword": null,
+    "discoveryType": "consul",
+    "discoveryParams": null,
+    "logbaseType": "elasticsearch",
+    "logbaseParams": [
+        {"key":"agentAddress", "value":"localhost:31111"},
+        {"key":"hosts" , "value":"192.168.112.35:9300"}
+    ],
+    "containerType": "docker",
+    "containerParams":[
+        {"key":"image" , "value":"192.168.112.53:5000/mgwcore"}
+    ],
+    "deployType": 1,
+    "deployContraints": null,
+    "serviceProfile": null,
+    "schedulerType": "marathon",
+    "schedulerParams": [
+        {"key":"host" , "value":"http://192.168.112.53:8080"}
+    ],
+    "serviceEnviroments": [
+        {"key":"host" , "value":"http://192.168.112.53:8080"}
+    ]
+}

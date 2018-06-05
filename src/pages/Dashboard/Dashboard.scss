@@ -1,0 +1,48 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  flex: auto;
+  position: relative;
+}
+
+.title {
+	height: $height;
+	border-bottom: 1px solid $border;
+	padding-left: $gapx2;
+	line-height: $height;
+	font-size: 16px;
+}
+
+.title > span:first-child {
+	font-weight: 500;
+}
+
+.title > span:last-child {
+	color: $info;
+}
+
+.content {
+	display: flex;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.left {
+	width: 80%;
+	margin: $gapx2 $gap $gapx2 $gapx2;
+	overflow-y: auto;
+}
+
+.right {
+	width: 20%;
+	margin: $gapx2 $gapx2 $gapx2 $gap;
+	padding: $gap;
+	outline: 1px solid $border;
+	overflow-y: auto;
+}

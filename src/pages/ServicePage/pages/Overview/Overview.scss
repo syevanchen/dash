@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/mixin.scss';
+
+.root {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.left {
+	width: 75%;
+	margin: $gap;
+	padding: $gap;
+	outline: 1px solid $border;
+}
+
+.right {
+	width: 25%;
+	x-outline: 1px dotted blue;
+	margin: $gap;
+	padding: $gap;
+	outline: 1px solid $border;
+	overflow-y: auto;
+}

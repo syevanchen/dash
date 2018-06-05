@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/mixin.scss';
+
+.root {
+	width: 100%;
+}
+
+.content {
+	width: 96%;
+	margin: $gapx2 auto;
+}
+
+.block {
+	margin-bottom: $gapx2;
+}
+
+.header {
+	height: $table-row-height;
+	line-height: $table-row-height;
+	padding: 0 $gap;
+	white-space: nowrap;
+	text-align: left;
+	color: $txt-reverse;
+	font-size: 1.25em;
+	font-weight: 400;
+	background-color: $content-bar;
+}
+
+.newbtn {
+  margin-top: $gap;
+}
+
+.form {
+  padding: $gap;
+}

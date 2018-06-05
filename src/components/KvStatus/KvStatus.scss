@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.cell {
+  width: 50%;
+  height: $table-row-height;
+  padding: 0 $gap;
+  line-height: $table-row-height;
+  text-align: right;
+  font-weight: 500;
+}
+
+.up {
+  color: $success;
+}
+
+.down {
+  color: $error;
+}
+
+.pause {
+  color: $alert;
+}
+
+.offline {
+  color: $disable;
+}

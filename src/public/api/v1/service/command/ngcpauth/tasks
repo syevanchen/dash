@@ -1,0 +1,48 @@
+{
+    "node":[
+        {
+            "hostName": "agent-five",
+            "address": "192.168.112.24",
+            "tasks":[
+                {
+                    "serviceName": "redis-backend",
+                    "serviceID": "redis-backend.e7d87d8d-20ab-11e6-abf2-0242a9c50326",
+                    "dataCenter": "new-infra",
+                    "cpus": 0.1,
+                    "mem": 256,
+                    "disk": 0,
+                    "ports": "[31468]",
+                    "container": "DOCKER",
+                    "upTime": "346:18:32"
+                },
+                {
+                    "serviceName": "ngcp-image",
+                    "serviceID": "ngcp-image.e35fb957-27a4-11e6-85e9-ba0774e7d7ea",
+                    "dataCenter": "new-infra",
+                    "cpus": 0.1,
+                    "mem": 256,
+                    "disk": 0,
+                    "ports": "[31087]",
+                    "container": "DOCKER",
+                    "upTime": "133:21:07"
+                }
+            ]
+        }, {
+            "hostName": "agent-four",
+            "address": "192.168.112.23",
+            "tasks":[
+                {
+                    "serviceName": "redis-backend",
+                    "serviceID": "redis-backend.e7d87d8d-20ab-11e6-abf2-0242a9c50326",
+                    "dataCenter": "new-infra",
+                    "cpus": 0.1,
+                    "mem": 256,
+                    "disk": 0,
+                    "ports": "[31468]",
+                    "container": "DOCKER",
+                    "upTime": "346:18:32"
+                }
+            ]
+        }       
+    ]
+}

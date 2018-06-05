@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+	color: $txt-title;
+	font: bold 1.25em;
+	background-color: $cotent-title;
+	border: 1px solid $border;	
+}
+
+.th {
+	height: $table-row-height;
+	line-height: $table-row-height;
+	padding: 0 $gap;
+	white-space: nowrap;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}

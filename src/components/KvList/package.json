@@ -1,0 +1,6 @@
+{
+	"name": "KvList",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./KvList.js"
+}

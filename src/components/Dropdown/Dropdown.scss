@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.title {
+  height: $height;
+  padding-left: $gap;
+  font-size: 1.25em;
+  line-height: $height;
+  color: $txt-bar;
+  background-color: $bar-title;
+  border-bottom: 1px solid $bar;
+  border-left: 3px solid $bar-title;
+  @mixin unselectable;
+}
+
+.title > i {
+  width: $icon-width;
+}
+
+.title > span {
+  cursor: pointer;
+  padding-left: $gap;
+}
+
+.hover {
+  color: $txt-reverse;
+}
+
+.hide {
+  display: none;
+}
+
+.plus {
+  line-height: $height;
+  float: right;
+  margin-right: $gap;
+  cursor: pointer;
+}

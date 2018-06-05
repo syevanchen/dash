@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/mixin.scss';
+
+.root {
+	width: 100%;
+}
+
+.filter {
+	height: $height;
+	padding-left: $gapx2;
+	display: flex;
+}
+
+.content {
+	width: 96%;
+	margin: 0 auto;
+}

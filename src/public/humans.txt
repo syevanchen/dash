@@ -1,0 +1,13 @@
+# TEAM
+    Builder: Xiaoyu.DAI
+    Contact: daixy [at] neusoft.com
+    From: Shenyang, China
+
+# THANKS
+
+# TECHNOLOGY COLOPHON
+	Last update: 2016/4/15
+	Language: Chinese
+	Doctype: HTML5
+	Tech stack: HTML5, SASS, React
+	IDE: Sublime Text, Chrome

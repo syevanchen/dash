@@ -1,0 +1,107 @@
+﻿{
+  "data": [
+    {
+      "id": "1",
+      "title": "基础技术服务",
+      "items": [
+        {
+          "id": "11",
+          "icon": "android",
+          "name": "容器管理",
+          "href": "cont-mgnt"
+        },
+        {
+          "id": "12",
+          "icon": "android",
+          "name": "队列消息",
+          "href": "que-msg",
+          "disable": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "公共业务服务",
+      "items": [
+        {
+          "id": "21",
+          "icon": "android",
+          "name": "认证与授权",
+          "href": "ngcpauth",
+          "subMenu": {
+            "summary": true,
+            "apidoc": true,
+            "status": true,
+            "control": true,
+            "logs": true,
+            "resource": true,
+            "entry": true,
+            "register": true
+          },
+          "disable": false
+        },
+        {
+          "id": "22",
+          "icon": "android",
+          "name": "用户信息中心",
+          "href": "user",
+          "disable": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "各种服务",
+      "items": [
+        {
+          "id": "31",
+          "icon": "android",
+          "name": "配置管理",
+          "href": "ngcpconfig"
+        },
+        {
+          "id": "32",
+          "icon": "android",
+          "name": "缓存服务",
+          "href": "ngcpredis"
+        },
+        {
+          "id": "33",
+          "icon": "android",
+          "name": "容器管理",
+          "href": "ngcpdocker"
+        },
+        {
+          "id": "34",
+          "icon": "android",
+          "name": "管理控制台",
+          "href": "ngcpconsole"
+        },
+        {
+          "id": "35",
+          "icon": "android",
+          "name": "个人信息中心",
+          "href": "ngcpperson"
+        },
+        {
+          "id": "36",
+          "icon": "android",
+          "name": "企业信息中心",
+          "href": "ngcpcompany"
+        },
+        {
+          "id": "37",
+          "icon": "android",
+          "name": "医保网关核心服务",
+          "href": "mgwcore"
+        },
+        {
+          "id": "38",
+          "icon": "android",
+          "name": "医保网关开放服务",
+          "href": "mgwopen"
+        }
+      ]
+    }
+  ]
+}

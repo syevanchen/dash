@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.cell {
+  width: 50%;
+  height: $table-row-height;
+  box-sizing: border-box;
+  padding: 6px $gap;
+  color: $txt-title;
+  vertical-align: text-top;
+  word-break: break-all;
+  word-wap: break-word;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}

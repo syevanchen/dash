@@ -1,0 +1,36 @@
+{
+	"agent-four(192.168.112.23)": [
+		{
+			"node": "agent-four",
+			"serviceName": "gateway",
+			"serviceID": "gateway-gateway-dev-agent-four-31180",
+			"check": "unknown",
+			"health": "passing",
+			"address": "192.168.112.23:31180"
+		},{
+			"node": "agent-four",
+			"serviceName": "fluentd",
+			"serviceID": "mesos-consul:192.168.112.23:fluentd:31111",
+			"check": "none",
+			"health": "unknown",
+			"address": "192.168.112.23:31111"
+		}
+	],
+	"agent-five(192.168.112.24)": [
+		{
+			"node": "agent-four",
+			"serviceName": "gateway",
+			"serviceID": "gateway-gateway-dev-agent-four-31180",
+			"check": "unknown",
+			"health": "passing",
+			"address": "192.168.112.23:31180"
+		},{
+			"node": "agent-four",
+			"serviceName": "fluentd",
+			"serviceID": "mesos-consul:192.168.112.23:fluentd:31111",
+			"check": "none",
+			"health": "unknown",
+			"address": "192.168.112.23:31111"
+		}
+	]	
+}

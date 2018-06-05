@@ -1,0 +1,118 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  @mixin absolute-position;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  @mixin absolute-position 50px;
+}
+
+.content {
+  background-color: $white-base;
+  @mixin flex-box;
+}
+
+.sidebar {
+  color: $txt-reverse;
+  background-color: $bar;
+
+  flex: none;
+}
+
+.shrinker {
+  height: $height;
+  padding-left: $gap;
+  line-height: $height;
+  cursor: pointer;
+  background-color: $bar-title;
+  border-bottom: 1px solid $bar;
+  border-left: 3px solid $bar-title;
+}
+
+.shrink {
+  width: $bar-shrink-width;
+  transition: $animation-swift-out;
+}
+
+.expand {
+  width: $bar-expand-width;
+  transition: $animation-swift-out;
+}
+
+.title {
+  height: $height;
+  padding-left: $gap;
+  font-size: 1.25em;
+  line-height: $height;
+  color: $txt-bar;
+  background-color: $bar-title;
+  border-bottom: 1px solid $bar;
+  border-left: 3px solid $bar-title;
+  @mixin unselectable;
+}
+
+.title > i {
+  width: $icon-width;
+}
+
+.title > span {
+  cursor: pointer;
+  padding-left: $gap;
+}
+
+.item {
+  display: block;
+  height: $height;
+  padding-left: $gap;
+  line-height: $height;
+  color: $txt-bar;
+  text-decoration: none;
+  background-color: $bar;
+  border-bottom: 1px solid $bar;
+  border-left: 3px solid $bar;
+  @mixin unselectable;
+}
+
+.item > i {
+  width: $icon-width;
+}
+
+.item > span {
+  padding-left: $gap;
+}
+
+.hover {
+  color: $txt-reverse;
+}
+
+.active {
+  cursor: default;
+  color: $txt-reverse;
+  background-color: $info;
+  border-left-color: $info;
+}
+
+.disable {
+  cursor: default;
+  color: color($txt-bar l(-30%));
+}
+
+.form {
+  padding: $gap;
+  min-width: 620px;
+}
+
+.hide {
+  display: none;
+}
+
+.tip {
+  margin: $gap $gapx2;
+  font-size: 1.25em;
+}

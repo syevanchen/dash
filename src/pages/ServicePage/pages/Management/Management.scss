@@ -1,0 +1,59 @@
+@charset 'UTF-8';
+
+@import '../../../../styles/variables.scss';
+
+.root {
+  width: 100%;
+}
+
+.content {
+  width: 96%;
+  margin: $gapx2 auto;
+}
+
+.newbtn {
+  margin-top: $gap;
+}
+
+.newbtn i {
+  margin-right: 5px;
+}
+
+.form {
+  padding: $gap;
+}
+
+.progress {
+  padding: $gap;
+}
+
+.progress > p {
+  font-size: 1.8em;
+  color: $txt-title;
+  margin-top: 0;
+  margin-bottom: $gap;
+}
+
+progress {
+  width: 300px;
+  height: 14px;
+  -webkit-appearance: none;
+  border: none;
+}
+
+progress::-webkit-progress-bar {
+  background: $cotent;
+  border-radius: 7px;
+  padding: 2px;
+  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+
+progress::-webkit-progress-value {
+  border-radius: 7px;
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+  background:
+    -webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+    -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
+    -webkit-linear-gradient(left, $info, $success);
+  background-size: 25px 14px, 100% 100%, 100% 100%;
+}

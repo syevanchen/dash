@@ -1,0 +1,55 @@
+/*
+ * Colors
+ * ========================================================================== */
+
+$white-base:            #FFFFFF; /* white    */
+$success:				#27C701; /* green    */
+$error:					#F1797A; /* pink     */
+$alert:					#AA6708; /* yellow   */
+$info:					#189ACB; /* blue     */
+$txt-title:				#000000; /* black    */
+$txt-content:			#686868; /* gray     */
+$txt-reverse:			#FFFFFF; /* white    */
+$txt-bar:				#ACB9C2; /* gray     */ 
+$bar:					#21282E; /* deep blue */
+$bar-title:				#394555; /* gray blue */
+$cotent:				#F5F5F5; /* lighter gray */
+$cotent-title:			#E9E9E9; /* light gray */
+$content-bar:			color($bar-title l(70%)); /* light gray blue */ 
+$border:				#D5D5D5; /* gray */
+$disable:				color($txt-content l(70%)); /* lightest gray */ 
+
+/*
+ * Typography
+ * ========================================================================== */
+
+$font-family-base:      Consolas, Georgia, Helvetica, Arial, 'Microsoft YaHei', FreeSans, Arimo, 'Droid Sans', 'wenquanyi micro hei', 'Hiragino Sans GB', 'Hiragino Sans GB W3', 'FontAwesome', sans-serif;
+
+/*
+ * Layout
+ * ========================================================================== */
+
+$min-content-width:     1280px;
+$height: 				39px; /* border-bottom 1px */
+$gap: 					10px;
+$gapx2: 				20px;
+$icon-width:			13px;
+$bar-expand-width:		200px;
+$bar-shrink-width:		36px;
+$button-height:			20px;
+$table-row-height:		30px;
+
+/*
+ * Media queries breakpoints
+ * ========================================================================== */
+
+$screen-xs-min:         480px;  /* Extra small screen / phone */
+$screen-sm-min:         768px;  /* Small screen / tablet */
+$screen-md-min:         992px;  /* Medium screen / desktop */
+$screen-lg-min:         1200px; /* Large screen / wide desktop */
+
+/*
+ * Animations
+ * ========================================================================== */
+
+$animation-swift-out:   .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;

@@ -1,0 +1,6 @@
+{
+	"name": "KvValue",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./KvValue.js"
+}

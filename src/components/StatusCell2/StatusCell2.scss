@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.cell {
+  height: $table-row-height;
+  padding: 0 $gap;
+  line-height: $table-row-height;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.label {
+	margin-right: 5px;
+}
+
+.running {
+	color: $success;
+}
+
+.stop {
+	color: $error;
+}
+
+.fault {
+	color: $alert;
+}
+
+.offline {
+	color: $txt-content;
+}

@@ -1,0 +1,6 @@
+{
+	"name": "StatusCell2",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./StatusCell2.js"
+}

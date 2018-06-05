@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.cell {
+  height: $table-row-height;
+  box-sizing: border-box;
+  padding: 6px $gap;
+  color: $txt-title;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.link {
+	text-decoration: none;
+	color: #000;
+    border-bottom: 1px dotted $info;
+    transition: background .15s cubic-bezier(.33,.66,.66,1);
+    -webkit-transition: background .15s cubic-bezier(.33,.66,.66,1);
+}
+
+.link:hover, .link:focus {
+  color: #fff;
+  text-decoration: none;
+  background: $info;
+  outline: 0;
+}

@@ -1,0 +1,60 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  display: flex;
+  height: $height;
+  padding-left: $gapx2;
+  background-color: $content-bar;
+  border-bottom: 1px solid $border;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
+  height: $button-height;
+
+  x-outline: 1px solid red;
+}
+
+.icon {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  color: $txt-content;
+}
+
+.input {
+  width: 437px;
+  height: $button-height;
+  padding-top: 0;
+  padding-right: 55px;
+  padding-bottom: 0;
+  padding-left: 25px;
+  background-color: $white-base;
+  border: none;
+  outline: none;
+}
+
+.button {
+  position: absolute;
+  left: 467px;
+  width: 50px;
+  height: $button-height;
+  padding: 1px 10px;
+  color: $txt-title;
+  cursor: pointer;
+  background: #f4f5f5;
+  background-image: linear-gradient(to bottom, #f4f5f5, #dfdddd);
+  border: 1px solid #d7dada;
+  outline: none;
+}
+
+.button:hover {
+  background: #d9dddd;
+  background-image: linear-gradient(to bottom, #d9dddd, #c6c3c3);
+}

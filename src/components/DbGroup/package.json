@@ -1,0 +1,6 @@
+{
+	"name": "DbGroup",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./DbGroup.js"
+}

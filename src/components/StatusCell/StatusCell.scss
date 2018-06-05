@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.cell {
+  height: $table-row-height;
+  padding: 0 $gap;
+  line-height: $table-row-height;
+  text-align: center;
+}
+
+.ok {
+	color: $success;
+}
+
+.ng {
+	color: $error;
+}
+
+.offline {
+	color: $txt-content;
+}

@@ -1,0 +1,90 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+  height: $height;
+  padding: 0 $gap;
+  line-height: $height;
+  color: $txt-title;
+  background-color: $cotent-title;
+  border-bottom: 1px solid $border;
+}
+
+.left {
+  position: relative;
+  display: flex;
+  float: left;
+
+  align-items: center;
+}
+
+.title {
+  padding: 0 $gap;
+  font-size: 1.25em;
+  font-weight: bold;
+  max-width: 380px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.status {
+  padding: 0 $gap;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: $gap;
+}
+
+.up {
+  color: $success;
+}
+
+.down {
+  color: $error;
+}
+
+.pause {
+  color: $alert;
+}
+
+.offline {
+  color: $disable;
+}
+
+.tab {
+  height: $button-height;
+  padding: 0 $gap;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  margin-right: $gap;
+  z-index: 1;
+  margin-bottom: -1px;
+  border: 1px solid $border;
+}
+
+.active {
+  border-bottom: 1px solid $white-base;
+}
+
+.right {
+  position: relative;
+  float: right;
+}
+
+.button {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin-left: $gap;
+  color: $txt-content;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+
+@import '../../../../../../styles/variables.scss';
+@import '../../../../../../styles/mixin.scss';
+
+.root {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+.content {
+	// margin: $gap auto;
+	// width: 98%;
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+}
+
+.title {
+	font-size: 24px;
+	padding-left: 80px;
+}
+
+.submit {
+	margin-top: 20px;
+	padding-left: 280px;
+}
+
+.hide {
+	display: none;
+}
+
+.line {
+	display: block;
+	text-align: left;
+	/*
+	text-overflow: ellipsis;
+	*/
+}
+
+.wrap {
+	white-space: nowrap;
+	word-break: break-all;
+}
+
+.output {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+	border-radius: 2px;
+	background-color: #1D1F21;
+	color: #C2C2C2;
+	overflow-x: auto;
+	overflow-y: scroll;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btnbar {
+	float: right;
+}
+
+.switcher {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 40px;
+	font-family: "MS PGothic", "SimSun";
+}
+
+.switcher input[type="checkbox"] {
+	margin-right: 5px;
+}
+
+.table {
+	width: 96%;
+	margin: $gapx2 auto;
+}
+
+ @keyframes blink {
+  0%     { opacity: 1; }
+  50%    { opacity: 1; }
+  50.01% { opacity: 0; }
+  100%   { opacity: 0; }
+}
+
+@-webkit-keyframes blink {
+  0%     { opacity: 1; }
+  50%    { opacity: 1; }
+  50.01% { opacity: 0; }
+  100%   { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+  0%     { opacity: 1; }
+  50%    { opacity: 1; }
+  50.01% { opacity: 0; }
+  100%   { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+  0%     { opacity: 1; }
+  50%    { opacity: 1; }
+  50.01% { opacity: 0; }
+  100%   { opacity: 0; }
+}
+
+@-o-keyframes blink {
+  0%     { opacity: 1; }
+  50%    { opacity: 1; }
+  50.01% { opacity: 0; }
+  100%   { opacity: 0; }
+}
+
+.blink {
+  -webkit-animation: blink 1.25s linear infinite;
+     -moz-animation: blink 1.25s linear infinite;
+      -ms-animation: blink 1.25s linear infinite;
+       -o-animation: blink 1.25s linear infinite;
+          animation: blink 1.25s linear infinite;
+}

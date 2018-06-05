@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+
+.modal {
+  position: absolute;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  min-width: 320px;
+  margin-right: -50%;
+  background-color: white;
+  border: 1px solid $info;
+  outline: none;
+  transform: translate(-50%, -50%);
+}
+
+.modal > header {
+  height: $height;
+  padding-left: $gap;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: $height;
+  color: $txt-reverse;
+  background-color: $info;
+}
+
+.modal > footer {
+  display: flex;
+  height: $height;
+  padding-right: $gap;
+
+  justify-content: flex-end;
+  align-items: center;
+}

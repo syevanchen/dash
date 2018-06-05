@@ -1,0 +1,125 @@
+{
+  "levels": [
+    {
+      "name": "服务集群",
+      "nodes": [
+        {
+          "type": "mgwcore",
+          "name": "mgwcore-643032428",
+          "hosts": [
+            "192.168.112.41:8090"
+          ],
+          "status": "UNKNOWN",
+          "details": {},
+          "links": []
+        },
+        {
+          "type": "mgwcore",
+          "name": "mgwcore-dev-1428277366",
+          "hosts": [
+            "192.168.112.33:57479"
+          ],
+          "status": "UP",
+          "details": {
+            "diskSpace": {
+              "total": 38195646464,
+              "free": 24812580864,
+              "threshold": 10485760
+            }
+          },
+          "links": [
+            {
+              "levelName": "后端服务",
+              "nodeName": "configServer",
+              "status": "UP"
+            },
+            {
+              "levelName": "后端服务",
+              "nodeName": "redis",
+              "status": "UP"
+            },
+            {
+              "levelName": "后端服务",
+              "nodeName": "MySQL",
+              "status": "UP"
+            }
+          ]
+        },
+        {
+          "type": "mgwcore",
+          "name": "mgwcore-dev-972036500",
+          "hosts": [
+            "192.168.172.196:51010"
+          ],
+          "status": "UP",
+          "details": {
+            "diskSpace": {
+              "total": 249795969024,
+              "free": 116572925952,
+              "threshold": 10485760
+            }
+          },
+          "links": [
+            {
+              "levelName": "后端服务",
+              "nodeName": "configServer",
+              "status": "UP"
+            },
+            {
+              "levelName": "后端服务",
+              "nodeName": "redis",
+              "status": "UP"
+            },
+            {
+              "levelName": "后端服务",
+              "nodeName": "MySQL",
+              "status": "UP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "后端服务",
+      "nodes": [
+        {
+          "type": "configServer",
+          "name": "configServer",
+          "hosts": [
+            "192.168.112.35:8888"
+          ],
+          "status": "UP",
+          "details": null,
+          "links": null
+        },
+        {
+          "type": "redis",
+          "name": "redis",
+          "hosts": [
+            "192.168.112.35:6379"
+          ],
+          "status": "UP",
+          "details": {
+            "version": "3.0.5"
+          },
+          "links": null
+        },
+        {
+          "type": "db",
+          "name": "MySQL",
+          "hosts": [
+            "192.168.112.20:3306",
+            "192.168.112.21:3306",
+            "192.168.112.22:3306"
+          ],
+          "status": "UP",
+          "details": {
+            "database": "MySQL",
+            "hello": 1
+          },
+          "links": null
+        }
+      ]
+    }
+  ]
+}

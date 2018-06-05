@@ -1,0 +1,23 @@
+{
+    "checkName": "mgwcore-643032428",
+    "status": "UP",
+    "childChecks": [
+        {
+            "checkName": "consul",
+            "status": "UP"
+        },
+        {
+            "checkName": "disk",
+            "status": "UP"
+        },
+        {
+            "checkName": "mem",
+            "status": "PAUSE"
+        },
+        {
+            "checkName": "redis",
+            "status": "DOWN"
+        }
+    ],
+    "details": null
+}

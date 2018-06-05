@@ -1,0 +1,29 @@
+[
+  {
+    "groupName": "systemProperties",
+    "properties": {
+      "awt.toolkit": "sun.awt.X11.XToolkit",
+      "file.encoding.pkg": "sun.io",
+      "java.specification.version": "1.8"
+      }
+   },
+   {
+    "groupName": "applicationConfig: [classpath:/application.properties]",
+    "properties": {
+      "endpoints.shutdown.enabled": "true",
+      "mgwcore.uus.captcha-template": "5",
+      "spring.datasource.driverClassName": "com.mysql.jdbc.Driver",
+      "mgwcore.pay.presettle_before_pay": "false",
+      "spring.datasource.validation-interval": "30000"
+      }
+    },
+    {
+    "groupName": "systemEnvironment",
+    "properties": {
+      "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin",
+      "HISTCONTROL": "ignoredups",
+      "HISTSIZE": "1000",
+      "TERM": "xterm"
+      }
+    }
+ ]

@@ -1,0 +1,18 @@
+@charset 'UTF-8';
+
+.root {
+	margin: 0 0 5px;
+	padding: 0.25em 0.625em;
+	x-font-size: 1.3rem;
+	background-color: #dd514c;
+	border-color: #d83832;
+	color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.code {
+	font-weight: 500;
+}

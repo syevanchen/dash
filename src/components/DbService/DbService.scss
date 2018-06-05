@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+	margin: $gap;
+	text-decoration: none;
+}
+
+.icon {
+	text-align: center;
+	margin-bottom: 5px;
+	color: $txt-content;
+}
+
+.name {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+	color: $txt-title;
+}
+
+.up {
+	color: $success;
+}
+
+.down {
+	color: $error;
+}

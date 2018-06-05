@@ -1,0 +1,6 @@
+{
+	"name": "TabsHeader",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./TabsHeader.js"
+}

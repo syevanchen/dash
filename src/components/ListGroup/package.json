@@ -1,0 +1,6 @@
+{
+	"name": "ListGroup",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./ListGroup.js"
+}

@@ -1,0 +1,6 @@
+{
+	"name": "DbPlatform",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./DbPlatform.js"
+}

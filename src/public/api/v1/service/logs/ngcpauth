@@ -1,0 +1,482 @@
+[
+  {
+    "logId": "AVRL7dPaZLQSjeeQY39u",
+    "time": "2016-04-25 13:38:10.764",
+    "serviceName": "mgwcore",
+    "serviceId": "1",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:38:10.764 [http-nio-8090-exec-8] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604211158060010000196;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "2",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "3",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "4",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "5",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "6",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "7",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "8",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "9",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "10",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "11",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "12",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "13",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "14",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "15",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "16",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "17",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "18",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "19",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "20",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "21",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "22",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "23",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "24",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "25",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "26",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "27",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "28",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "29",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "30",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "31",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "32",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "33",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "34",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "35",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "36",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "37",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "38",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "39",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "40",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "41",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "42",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "43",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "44",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "45",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "46",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "47",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "48",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "49",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "50",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "51",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "52",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "53",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "54",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "55",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "56",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "57",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "58",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "59",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  },
+  {
+    "logId": "AVRL7YTsZLQSjeeQY39p",
+    "time": "2016-04-25 13:37:49.843",
+    "serviceName": "mgwcore",
+    "serviceId": "60",
+    "logLevel": "INFO",
+    "message": "2016-04-25 13:37:49.843 [http-nio-8090-exec-1] INFO c.n.m.c.service.log.SystemLogService - 实例ID=mgwcore-643032428;请求ID=99995:201604191002250010000190;请求错误 (错误代码 = mgw.system.error ; 错误消息 = No message available)"
+  }
+]

@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/mixin.scss';
+
+.root {
+	width: 100%;
+}
+
+.content {
+	width: 96%;
+	margin: $gapx2 auto;
+}

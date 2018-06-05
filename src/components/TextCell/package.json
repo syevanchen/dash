@@ -1,0 +1,6 @@
+{
+	"name": "TextCell",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./TextCell.js"
+}

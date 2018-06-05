@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.item {
+  display: block;
+  height: $height;
+  padding-left: $gap;
+  font-size: 1.25em;
+  line-height: $height;
+  color: $txt-content;
+  text-decoration: none;
+  cursor: pointer;
+  border-left: 5px solid $white-base;
+  @mixin unselectable;
+}
+
+.hover {
+  color: $txt-title;
+}
+
+.active {
+  cursor: default;
+  color: $info;
+  border-left-color: $info;
+}

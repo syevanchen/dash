@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: $gapx2;
+}
+
+.label {
+	margin-right: $gap;
+	font-size: 1.25em;
+	font-weight: 500;
+}
+
+.select {
+	width: 120px;
+}

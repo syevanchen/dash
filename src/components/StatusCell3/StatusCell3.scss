@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.cell {
+  height: $table-row-height;
+  padding: 0 $gap;
+  line-height: $table-row-height;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.label {
+	box-sizing: border-box;
+	margin-right: 5px;
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+
+.passing {
+	background-color: $success;
+}
+
+.unknown {
+	background-color: $txt-bar;
+}
+
+.critical {
+	background-color: $error;
+}

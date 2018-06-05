@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.root {
+	width: 100%;
+	margin: 0;
+	border: none;
+	border-collapse: collapse;
+}

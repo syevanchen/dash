@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.row {
+  border-bottom: 1px solid $border;
+}
+
+.cell {
+  height: $table-row-height;
+  padding: 6px $gap;
+  vertical-align: top;
+}
+
+.label {
+  text-align: left;
+}
+
+.bar {
+  position: relative;
+  height: $button-height;
+  margin-top: 5px;
+
+  x-outline: 1px dotted red;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: $button-height;
+  background-color: $cotent-title;
+
+  x-border-radius: $button-height;
+  x-outline: 1px solid blue;
+}
+
+.progress {
+  position: absolute;
+  height: $button-height;
+  padding-right: 5px;
+  font-size: .5em;
+  line-height: $button-height;
+  color: $white-base;
+  text-align: right;
+  background-color: $success;
+
+  x-border-top-left-radius: $button-height;
+  x-border-bottom-left-radius: $button-height;
+  x-outline: 1px solid green;
+}

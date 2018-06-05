@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+
+.cell {
+  display: flex;
+  height: $table-row-height;
+  padding: 0 $gap;
+  line-height: $table-row-height;
+
+  justify-content: space-around;
+  align-items: center;
+}

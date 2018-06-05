@@ -1,0 +1,114 @@
+{
+    "saas": {
+        "id": 1,
+        "name": "saas",
+        "title": "应用系统产品及服务",
+        "groups": [
+            {
+                "id": 1,
+                "name": "mgw-all",
+                "title": "医加医服务平台",
+                "services": [
+                    {
+                        "id": 301,
+                        "icon": "medkit",
+                        "name": "医保网关核心服务",
+                        "href": "mgwcore",
+                        "status": "UP"
+                    },
+                    {
+                        "id": 302,
+                        "icon": "medkit",
+                        "name": "医保网关开放服务",
+                        "href": "mgwopen",
+                        "status": "UP"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "media-shop",
+                "title": "医保购药平台",
+                "services": [
+                    {
+                        "id": 401,
+                        "icon": "medkit",
+                        "name": "医保购药服务",
+                        "href": "mshop",
+                        "status": "UP"
+                    }
+                ]
+            }
+        ]
+    },
+    "paas-biz": {
+        "id": 2,
+        "name": "paas-biz",
+        "title": "公共业务服务",
+        "groups": [
+            {
+                "id": 2,
+                "name": "paas-biz",
+                "title": "公共业务服务平台",
+                "services": [
+                    {
+                        "id": 201,
+                        "icon": "key",
+                        "name": "认证与授权",
+                        "href": "ngcpauth",
+                        "status": "UP"
+                    },
+                    {
+                        "id": 202,
+                        "icon": "users",
+                        "name": "个人信息中心",
+                        "href": "ngcpuus",
+                        "status": "UP"
+                    },
+                    {
+                        "id": 203,
+                        "icon": "industry",
+                        "name": "企业信息中心",
+                        "href": "ngcpcomapny",
+                        "status": "DISABLE"
+                    }
+                ]
+            }
+        ]
+    },
+    "paas-tech": {
+        "id": 3,
+        "name": "paas-tech",
+        "title": "基础技术服务",
+        "groups": [
+            {
+                "id": 3,
+                "name": "paas-tech",
+                "title": "基础技术服务平台",
+                "services": [
+                    {
+                        "id": 100,
+                        "icon": "cubes",
+                        "name": "容器管理",
+                        "href": "ngcpdocker",
+                        "status": "DISABLE"
+                    },
+                    {
+                        "id": 101,
+                        "icon": "pencil",
+                        "name": "配置管理",
+                        "href": "ngcpconfig",
+                        "status": "UP"
+                    },
+                    {
+                        "id": 102,
+                        "icon": "cloud",
+                        "name": "Redis缓存",
+                        "href": "ngcpredis",
+                        "status": "DISABLE"
+                    }
+                ]
+            }
+        ]
+    }
+}

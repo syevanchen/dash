@@ -1,0 +1,53 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.item {
+  display: block;
+  height: $height;
+  padding-left: $gap;
+  line-height: $height;
+  color: $txt-content;
+  font-size: 1.25em;
+  text-decoration: none;
+  background-color: $cotent;
+  border-bottom: 1px solid $border;
+  border-left: 5px solid $cotent;
+  @mixin unselectable;
+}
+
+.item > i {
+  width: $icon-width;
+}
+
+.item > span {
+  padding-left: $gap;
+}
+
+.hover {
+  color: $txt-title;
+}
+
+.active {
+  cursor: default;
+  color: $info;
+  background-color: $white-base;
+  border-left-color: $info;
+}
+
+.disable {
+  cursor: default;
+  color: $disable;
+}
+
+.cog {
+  line-height: $height;
+  float: right;
+  margin-right: $gap;
+  cursor: pointer;
+}
+
+.cog:hover {
+  color: $txt-reverse;
+}

@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.title {
+  height: $height;
+  padding-left: $gap;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: $height;
+  color: $txt-title;
+  background-color: $cotent;
+  border-bottom: 1px solid $border;
+  border-left: 5px solid $cotent;
+  @mixin unselectable;
+}
+
+.title > i {
+  width: $icon-width;
+}
+
+.title > span {
+  padding-left: $gap;
+}

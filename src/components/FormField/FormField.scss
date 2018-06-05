@@ -1,0 +1,160 @@
+@charset 'UTF-8';
+
+@import '../../styles/variables.scss';
+
+.root {
+  display: flex;
+  min-height: 40px;
+
+  align-items: baseline;
+}
+
+.root input {
+  font-size: 1.8em;
+  color: $txt-title;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  border-left: none;
+  outline: none;
+}
+
+.root input:focus, .root select:focus {
+  color: $info;
+  border-bottom: 1px solid $info;
+}
+
+.hide {
+  display: none;
+}
+
+.label {
+  width: 100px;
+  margin-right: 30px;
+  font-size: 1.25em;
+  font-weight: 400;
+  color: $txt-title;
+  text-align: right;
+}
+
+.type5label {
+  align-self: center;
+}
+
+.number {
+  width: 200px;
+  text-align: center;
+}
+
+.comment {
+  margin-left: $gapx2;
+  color: $txt-content;
+}
+
+.text {
+  width: 500px;
+  text-align: left;
+  margin-right: $gap;
+}
+
+.radio {
+  margin-right: $gapx2;
+  font-size: 1.25em;
+  font-weight: 400;
+  color: $txt-title;
+}
+
+.radiobtn {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.radioext {
+  width: 80px;
+  text-align: center;
+}
+
+.equal {
+  margin: $gap;
+  font-size: 2em;
+}
+
+.envinput {
+  width: 200px;
+  text-align: center;
+}
+
+.envbtn {
+  margin-left: $gap;
+  cursor: pointer;
+  color: $info;
+}
+
+.select {
+  width: 500px;
+  font-size: 1.8em;
+  font-weight: 400;
+  color: $txt-title;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  outline: none; 
+}
+
+.iteminput {
+  width: 435px;
+  text-align: left;
+}
+
+/* switch button */
+
+.switch {
+    position: relative; width: 70px;
+    align-self: center;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.switchcheckbox {
+    display: none;
+}
+.switchlabel {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #D5D5D5; border-radius: 20px;
+}
+.switchinner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.switchinner:before, .switchinner:after {
+    display: block; float: left; width: 50%; height: 24px; padding: 0; line-height: 24px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.switchinner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #189ACB; color: #FFFFFF;
+}
+.switchinner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #F5F5F5; color: #686868;
+    text-align: right;
+}
+.switchswitch {
+    display: block; width: 18px; margin: 3px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 42px;
+    border: 2px solid #D5D5D5; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.switchcheckbox:checked + .switchlabel .switchinner {
+    margin-left: 0;
+}
+.switchcheckbox:checked + .switchlabel .switchswitch {
+    right: 0px; 
+}

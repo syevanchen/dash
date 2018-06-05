@@ -1,0 +1,6 @@
+{
+	"name": "Fetch",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./Fetch.js"
+}
